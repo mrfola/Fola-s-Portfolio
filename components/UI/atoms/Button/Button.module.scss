@@ -1,0 +1,23 @@
+@import "./../../../../styles/styleVariables.scss"; 
+
+.buttonContainer
+{
+    padding: 2px;
+    height: fit-content;
+    background-image: $buttonBorderGradient;
+    width: fit-content;
+    border-radius: 5px;
+    cursor: pointer;
+
+    button
+    {
+        background-color: $buttonBackgroundBlue;
+        // background-color: red;
+        padding: 15px 25px;
+        border-radius: 5px;
+        border: 0;
+        font-weight: 300;
+    }
+
+}
+

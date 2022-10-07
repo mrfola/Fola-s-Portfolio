@@ -1,0 +1,37 @@
+@import "./../../../styles/styleVariables.scss";
+
+.hero
+{
+    padding: 100px 10.5%;
+
+    .preHeading
+    {
+        color: $purple;
+    }
+
+    .heading h1
+    {
+        font-size: 60px;
+        font-weight: 400;
+        margin: 25px 0;
+
+        span
+        {
+            color: $purple;
+            font-weight: 500;
+        }
+    }
+
+    .subHeading
+    {
+        opacity: 0.6;
+        max-width: 668px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+
+    .button
+    {
+        margin-top: 25px;
+    }
+}
