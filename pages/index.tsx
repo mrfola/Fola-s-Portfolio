@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.scss';
 import Hero from '../components/templates/Hero/Hero';
 import Header from '../components/organisms/Header/Header';
 import MeetFola from '../components/templates/MeetFola/MeetFola';
+import JobsOfFola from '../components/templates/JobsOfFola/JobsOfFola';
 
 const Home: NextPage = () => 
 {
@@ -20,6 +21,7 @@ const Home: NextPage = () =>
       <Header/>
       <Hero/>
       <MeetFola/>
+      <JobsOfFola/>
     </div>
     </>
   )

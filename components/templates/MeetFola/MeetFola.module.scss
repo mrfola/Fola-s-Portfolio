@@ -1,0 +1,46 @@
+.meetFola
+{
+    padding: 100px 10.5%;
+    display: flex;
+    align-items: flex-start;
+
+    > div
+    {
+        width: 50%;
+    }
+
+    .meetFolaIconAndLogoContainer
+    {
+
+        .meetFolaIconAndLogo
+        {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+
+            .meetFolaText
+            {
+                display: flex;
+                flex-direction: column;
+
+                span
+                {
+                    font-size: 40px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    
+
+    .content
+    {
+        opacity: 0.6;
+        font-weight: 300;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        
+    }
+}
+

@@ -1,0 +1,24 @@
+.jobsOfFola
+{
+    .heading
+    {
+        display: flex;
+        justify-content: center;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 8px;
+
+        span
+        {
+            font-size: 40px;
+            font-weight: 300;
+        }
+    }
+
+    .jobAccordion
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
