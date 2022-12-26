@@ -7,8 +7,8 @@ export interface SlideProp
     {
         src: string,
         alt: string,
-        height: string,
-        width: string
+        height: number,
+        width: number
     }
 
     name: string;
