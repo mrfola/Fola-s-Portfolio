@@ -9,7 +9,7 @@
     border-radius: 5px;
     cursor: pointer;
 
-    button
+    .button
     {
         background-color: $buttonBackgroundBlue;
         // background-color: red;
@@ -19,5 +19,9 @@
         font-weight: 300;
     }
 
+    .inactiveButton
+    {
+        background-color: $brandBlue;
+    }
 }
 

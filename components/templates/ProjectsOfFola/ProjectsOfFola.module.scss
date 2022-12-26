@@ -1,0 +1,32 @@
+.projectsOfFola
+{
+    padding: 100px 10.5%;
+
+    .headingAndFilters
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .filters
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .heading
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            align-items: center;
+            span
+            {
+                font-size: 40px;
+                line-height: 47.4px;
+                font-weight: 300;
+            }
+        }
+    }
+}

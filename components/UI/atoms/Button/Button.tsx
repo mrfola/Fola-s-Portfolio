@@ -6,16 +6,17 @@ export interface Props
     children: String,
     withAdornment?: Boolean,
     adornmentImage?: Url,
-    className? : String
+    className? : String,
+    active?: Boolean
 }
 
 
-const Button = (props: Props) => 
+const Button = ({children, withAdornment, adornmentImage, className, active = false} : Props) => 
 {
     return ( 
-        <div className={`${styles.buttonContainer} ${props.className}`}>
-            <button className={styles.button}>
-                {props.children}
+        <div className={`${styles.buttonContainer} ${className && className}`}>
+            <button className={`${styles.button} ${!active && styles.inactiveButton}`}>
+                {children}
             </button>
         </div>
         
